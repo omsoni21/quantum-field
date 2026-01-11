@@ -1,0 +1,119 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * MatchUp - Modern Dating App Theme
+   * Tailwind CSS theme with vibrant, engaging colors optimized for a dating app
+   */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 14% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 14% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 14% 20%;
+
+    --primary: 0 100% 67%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 85% 62%;
+    --secondary-foreground: 0 0% 100%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --muted: 210 10% 89%;
+    --muted-foreground: 210 10% 45%;
+
+    --accent: 0 100% 67%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 13% 91%;
+    --input: 210 13% 91%;
+    --ring: 0 100% 67%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 210 14% 20%;
+    --sidebar-primary: 0 100% 67%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 260 85% 62%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 13% 91%;
+    --sidebar-ring: 0 100% 67%;
+  }
+
+  .dark {
+    --background: 210 13% 12%;
+    --foreground: 210 10% 95%;
+
+    --card: 210 13% 18%;
+    --card-foreground: 210 10% 95%;
+
+    --popover: 210 13% 18%;
+    --popover-foreground: 210 10% 95%;
+
+    --primary: 0 100% 67%;
+    --primary-foreground: 210 13% 12%;
+
+    --secondary: 260 85% 62%;
+    --secondary-foreground: 210 13% 12%;
+
+    --success: 142 71% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --muted: 210 10% 25%;
+    --muted-foreground: 210 10% 70%;
+
+    --accent: 0 100% 67%;
+    --accent-foreground: 210 13% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 13% 25%;
+    --input: 210 13% 25%;
+    --ring: 0 100% 67%;
+
+    --sidebar-background: 210 13% 12%;
+    --sidebar-foreground: 210 10% 95%;
+    --sidebar-primary: 0 100% 67%;
+    --sidebar-primary-foreground: 210 13% 12%;
+    --sidebar-accent: 260 85% 62%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 13% 25%;
+    --sidebar-ring: 0 100% 67%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}

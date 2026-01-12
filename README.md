@@ -7,36 +7,59 @@ Built with **TypeScript**, **React**, and **Tailwind CSS**, MatchUp delivers a f
 
 ---
 
+## 🖼 App Screenshots
+
+<p align="center">
+  <img src="home.png" width="45%" />
+  <img src="homea.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="homeb.png" width="45%" />
+  <img src="match.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="signup.png" width="45%" />
+  <img src="sigin.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="massage.png" width="45%" />
+</p>
+
+---
+
 ## ✨ Features
 
 ### 🔐 Authentication
 - User Signup & Login
-- Persistent authentication using context
+- Persistent authentication using Context API
 - Protected routes
 - Demo user support
 
 ### 🧑‍🤝‍🧑 Discover & Match
 - Swipe-style profile discovery
 - Like, Super-Like, and Skip actions
-- Interest tags (Travel, Coffee, Photography, Hiking, etc.)
+- Interest tags (Travel, Coffee, Photography, Hiking)
 - Location & age display
 
 ### 💬 Real-Time Chat UI
+- Clean messaging interface
 - Conversation list
 - Message timestamps
-- Active user status
-- Clean chat bubble layout
+- Active user indicator
 
 ### 👤 Profile Management
 - View & edit profile
 - Upload multiple photos
 - Set main profile picture
-- Bio and interests
+- Bio & interests management
 
 ### 🎨 Modern UI/UX
 - Mobile-first responsive design
 - Smooth transitions & animations
-- Clean card-based layout
+- Card-based layout
 - Soft gradients & rounded components
 
 ---

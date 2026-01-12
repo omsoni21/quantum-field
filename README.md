@@ -1,9 +1,9 @@
-# ❤️ MatchUp – Modern Dating Web App
+# ❤️ MatchUp – Modern Dating Web App (Frontend)
 
-MatchUp is a modern, swipe-based dating web application inspired by platforms like Tinder and Bumble.  
-It focuses on meaningful connections with a clean UI, smooth interactions, real-time chat, and profile discovery.
+MatchUp is a modern, swipe-based **frontend-only dating web application** inspired by platforms like Tinder and Bumble.  
+It focuses on UI/UX, smooth interactions, and clean component architecture **without any backend integration**.
 
-Built with **TypeScript**, **React**, and **Tailwind CSS**, MatchUp delivers a fast, responsive, and scalable user experience.
+Built with **React**, **TypeScript**, and **Tailwind CSS**, this project showcases a production-quality dating app interface with authentication flows, swipe cards, chat UI, and profile management using mock data.
 
 ---
 
@@ -32,33 +32,33 @@ Built with **TypeScript**, **React**, and **Tailwind CSS**, MatchUp delivers a f
 
 ## ✨ Features
 
-### 🔐 Authentication
-- User Signup & Login
-- Persistent authentication using Context API
-- Protected routes
-- Demo user support
+### 🔐 Authentication (UI Only)
+- Signup & Login screens
+- Client-side state handling
+- Demo user flow (no real authentication)
+- Route protection using mock state
 
 ### 🧑‍🤝‍🧑 Discover & Match
-- Swipe-style profile discovery
-- Like, Super-Like, and Skip actions
-- Interest tags (Travel, Coffee, Photography, Hiking)
-- Location & age display
+- Swipe-style profile cards
+- Like, Super-Like, and Skip UI actions
+- Interest tags & profile details
+- Age & location display (mock data)
 
-### 💬 Real-Time Chat UI
-- Clean messaging interface
-- Conversation list
-- Message timestamps
-- Active user indicator
+### 💬 Chat Interface (UI Only)
+- Conversation list layout
+- Message bubbles with timestamps
+- Active status indicators
+- Static / mock chat data
 
 ### 👤 Profile Management
-- View & edit profile
-- Upload multiple photos
-- Set main profile picture
-- Bio & interests management
+- Profile view & edit UI
+- Upload and preview multiple photos
+- Set main profile image
+- Bio & interests section
 
 ### 🎨 Modern UI/UX
-- Mobile-first responsive design
-- Smooth transitions & animations
+- Fully responsive (mobile-first)
+- Smooth transitions & hover effects
 - Card-based layout
 - Soft gradients & rounded components
 
@@ -67,14 +67,11 @@ Built with **TypeScript**, **React**, and **Tailwind CSS**, MatchUp delivers a f
 ## 🛠 Tech Stack
 
 **Frontend**
-- React + TypeScript
+- React
+- TypeScript
 - Vite
 - Tailwind CSS
 - Context API
-
-**Backend / Functions**
-- Netlify Functions
-- Node.js
 
 **Tooling**
 - pnpm

@@ -78,7 +78,6 @@ Built with **React**, **TypeScript**, and **Tailwind CSS**, this project showcas
 - Prettier
 - PostCSS
 - Builder.io (UI Prototyping)
-
 ---
 
 

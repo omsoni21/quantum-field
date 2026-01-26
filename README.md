@@ -3,7 +3,7 @@
 MatchUp is a modern, swipe-based **frontend-only dating web application** inspired by platforms like Tinder and Bumble.  
 It focuses on UI/UX, smooth interactions, and clean component architecture **without any backend integration**.
 
-Built with **React**, **TypeScript**, and **Tailwind CSS**, this project showcases a production-quality dating app interface with authentication flows, swipe cards, chat UI, and profile management using mock data.
+Built with **React**, **TypeScript**, and **Tailwind CSS**, this project showcases a production-quality dating app interface with authentication flows, swipe cards, chat UI, and profile management using mock data.  
 
 ---
 
